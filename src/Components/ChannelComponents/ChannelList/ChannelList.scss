@@ -1,0 +1,41 @@
+
+.channel-item__wrapper {
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+}
+
+.now-button {
+    position: fixed;
+    right: 22px;
+    bottom: 88px;
+    background-color: greenyellow;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.content {
+    background-color: rgb(29, 28, 28);
+    top: 4.5rem;
+    left: 8rem;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.content::-webkit-scrollbar {
+    height: 12px;               
+}
+
+.content::-webkit-scrollbar-track {
+    background: rgb(29, 28, 28);      
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: yellowgreen;
+    border-radius: 20px;
+    border: 3px solid rgb(29, 28, 28);
+}

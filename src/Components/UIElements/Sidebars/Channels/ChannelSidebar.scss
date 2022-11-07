@@ -1,0 +1,55 @@
+.sidenav {
+  height: auto;
+  width: 8rem; 
+  position: absolute; 
+  z-index: 1; 
+  top: 4.5rem; 
+  left: 0;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: greenyellow;
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  &:hover {
+    color: yellow;
+  }
+}
+
+.channel-sidebar {
+  height: 75.5px;
+  border-bottom: solid 1px grey;
+}
+
+.channel-sidebar__date {
+  background-color: rgba(0, 0, 0, 0.51);
+  height: 85px;
+  .heart-icon {
+    left: 2rem;
+    top: 2rem;
+    position: absolute;
+    color: greenyellow;
+    &:hover {
+      color: yellow;
+    }
+  }
+}
+
+
+.channel-sidebar__timeline {
+  height: 65px;
+  border-bottom: solid 1px grey;
+  background-color: rgba(0, 0, 0, 0.51);
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

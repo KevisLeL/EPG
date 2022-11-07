@@ -1,0 +1,31 @@
+.date_item-wrapper {
+    display: flex;
+    align-content: center;
+    height: 85px;
+    border-bottom: solid 0.5px rgb(45, 46, 47);
+    overflow: hidden;
+    left: 7.5rem;
+    position: relative;
+    top: 4.5rem;
+    background-color: rgba(0, 0, 0, 0.51);
+  }
+  
+  #date-item {
+    margin: auto;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      color: orange;
+    }
+  
+    .date-item__day {
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+  
+    .date-item__day_month {
+      font-size: 0.8rem;
+      font-weight: 100;
+    }
+  }

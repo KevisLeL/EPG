@@ -1,0 +1,33 @@
+.program-item {
+    color: white;
+    height: 76.5px;
+    border: solid rgb(71, 71, 71);
+    border-width: 1px 1px;
+    text-align: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 1rem;
+    &:hover {
+        color: rgb(255, 123, 0);
+      }
+}
+
+.program-item__live {
+    @extend .program-item;
+    background-color: rgba(5, 0, 0, 0.51);
+    color: gold;
+    border-radius: 10px;
+}
+
+.program-title {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.program-schedule {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 100;
+}

@@ -1,0 +1,25 @@
+.timeline-style {
+    display: inline-flex;
+    color: white;
+    top: 0;
+    left: -2rem;
+    position: relative;
+  
+    .marker {
+      position: absolute;
+      width: 1.5px;
+      height: 100vh;
+      background-color: yellowgreen;
+      z-index: 2;
+    }
+  
+    .time-hour {
+      position: relative;
+      z-index: 102;
+      width: 600px;
+      padding: 20px 0 ;
+      text-align: center;
+      border: solid 1px rgb(45, 46, 47);
+      background-color: rgba(0, 0, 0, 0.51);
+    }
+  }

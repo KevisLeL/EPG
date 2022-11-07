@@ -1,0 +1,22 @@
+.main-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #070300;
+  box-shadow: -0.2rem -0.2rem 0.6rem rgba(0, 0, 0, 0.26);
+  z-index: 5;
+  justify-content: space-around;
+  color: white;
+  padding: 22px;
+}
+
+.main-footer__icon {
+  color: white;
+  &:hover {
+    color: orange;
+  }
+
+}
