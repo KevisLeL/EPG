@@ -13,7 +13,7 @@ const ChannelList = (props) => {
         const now = new Date();
         return (now.getHours() * dateConstants.pxPerHour) + (now.getMinutes() * dateConstants.pxPerMinute);
     }
-    let [position, setPosition] = useState(0);
+    const [position, setPosition] = useState(0);
 
     useEffect(() => {
         setInterval(() => {

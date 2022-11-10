@@ -7,7 +7,6 @@ const ChannelSidebar = (props) => {
         <div className="sidenav">
             <div className='channel-sidebar__date'> 
                 <MdFavorite size="3rem" className='heart-icon'/>
-                <p>Favs</p>
             </div>
             <div className='channel-sidebar__timeline'> 
             </div>

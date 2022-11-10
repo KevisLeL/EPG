@@ -2,7 +2,6 @@
     display: inline-flex;
     color: white;
     top: 0;
-    left: -2rem;
     position: relative;
   
     .marker {
@@ -15,8 +14,8 @@
   
     .time-hour {
       position: relative;
-      z-index: 102;
-      width: 600px;
+      z-index: 3;
+      width: 598px;
       padding: 20px 0 ;
       text-align: center;
       border: solid 1px rgb(45, 46, 47);

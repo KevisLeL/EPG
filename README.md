@@ -12,3 +12,5 @@ Functionalities:
 
 -   EPG starts at 00:00 of current date. Press NOW button to scroll the content until current time.
     Use the scrollbar to navigate through the schedule.
+
+- Every minute the marker is updated to show current time.
